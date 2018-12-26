@@ -1,12 +1,12 @@
 module MalauzaiPlaces
     class Place
-        attr_accessor :lat, :lng, :name, :reference, :types, :id, :url, :cid, :website, :nextpagetoken, :opening_hours, :place_id, :permanently_closed
+        attr_accessor :lat, :lng, :name, :reference, :types, :id, :url, :cid, :website, :nextpagetoken, :opening_hours, :place_id, :permanently_closed, :language
         
         def self.list(lat, lng, api_key, options = {})
             location = Location.new(lat, lng)
             multipage_request = !!options.delete(:multipage)
-            rankby = options.delete(:rankby)
-            radius = options.delete(:radius) || 50000 if rankby.nil?
+            rankby = options.delete(:rankby) || 'distance'
+	    radius = options.delete(:radius) || 3000 if rankby.nil?
             types = options.delete(:types)
             name = options.delete(:name)
             language = options.delete(:language)
@@ -75,6 +75,7 @@ module MalauzaiPlaces
             @lat = result_object['geometry']['location']['lat']
             @lng = result_object['geometry']['location']['lng']
             @name = result_object['name']
+	    @language = result_object['language']
             @reference = result_object['reference']
             @types = result_object['types']
             @id = result_object['id']

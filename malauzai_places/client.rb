@@ -21,8 +21,8 @@ module MalauzaiPlaces
     
         def collection_detail_level(places, detail = false)
           if detail
-            places.map do |spot|
-              Place.find(spot.place_id, @api_key, @options)
+            places.map do |place|
+              Place.find(place.place_id, @api_key, @options)
             end
           else
             places

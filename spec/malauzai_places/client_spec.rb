@@ -3,9 +3,6 @@ require 'spec_helper'
 describe MalauzaiPlaces::Client do
 	let(:client) {MalauzaiPlaces::Client.new(api_key, client_options)}
 	let(:client_options) {{}}
-	let(:fake_spot) {Object.new}
-
-	before {allow(fake_spot).to receive(:place_id) {1}}
 	
 	describe '::api_key' do
 		it 'should initialize with an api_key' do
@@ -35,10 +32,10 @@ describe MalauzaiPlaces::Client do
 		end
 	end
 
-	describe 'get places details' do
+	describe 'get places with details' do
 		let(:lat) {'30.4284750'}
                 let(:lng) {'-97.7550500'}
-		it 'should return places with detail information' do
+		it 'should return places with information' do
 			places = client.places(lat, lng)
 			expect(places).to_not be_nil
 
