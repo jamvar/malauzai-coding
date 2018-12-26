@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'erb'
 require 'httparty'
+# require 'json'
+# require 'active_support/core_ext/hash'
 
 ['client', 'error', 'location', 'place', 'request'].each do |file|
     require File.join(File.dirname(__FILE__), 'malauzai_places', file)

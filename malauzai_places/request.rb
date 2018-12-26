@@ -8,10 +8,13 @@ module MalauzaiPlaces
         include ::HTTParty
         format :json
 
-        NEARBY_SEARCH_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
+        NEARBY_SEARCH_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/'
 
         def self.places(options = {})
-		request = new(NEARBY_SEARCH_URL, options)
+		request = new(NEARBY_SEARCH_URL + format.to_s, options)
+		if format.to_s == 'xml'
+			# JSON.parse(Hash.from_xml(response_xml).to_json)
+		end
         	request.parsed_response
         end
         
