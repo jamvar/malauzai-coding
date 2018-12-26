@@ -39,8 +39,8 @@ module MalauzaiPlaces
 			results << self.new(result, options[:key]) if result['types'].nil? || (result['types'] & exclude) == []
 		end
 
-		if max_results && (results.count > max_results)
-			results[0...max_results]
+		if max_results
+			results.count > max_results ? results[0...max_results] : results
 		else
 			results
 		end
