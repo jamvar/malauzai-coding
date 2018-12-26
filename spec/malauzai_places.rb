@@ -1,5 +1,4 @@
-require 'malauzai_places'
-require File.dirname(__FILE__) + '/../' + 'malauzai_places'
+require 'spec_helper'
 
 describe MalauzaiPlaces do
 	it "should be not able to initialize without any params" do
@@ -15,10 +14,12 @@ describe MalauzaiPlaces do
 			client = MalauzaiPlaces::Client.new
 			expect(client.api_key).to eq('abc')
 		end
+	end
 
-		it "should be able to override api_key" do
+	include_examples "config api_key" do
+		it "should be able to config api_key and overide it" do
 			client = MalauzaiPlaces::Client.new('abc')
-			expect(client.api_key).to eq('abc')
+			expect(client.api_key).not_to eq('123')
 			client = MalauzaiPlaces::Client.new('123')
 			expect(client.api_key).to eq('123')
 		end
