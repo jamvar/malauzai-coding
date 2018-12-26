@@ -32,7 +32,7 @@ describe MalauzaiPlaces::Client do
 		end
 	end
 
-	describe 'get places with details' do
+	describe 'get places with details', vcr: {cassette_name: 'places_list_with_detail'} do
 		let(:lat) {'30.4284750'}
                 let(:lng) {'-97.7550500'}
 		it 'should return places with information' do

@@ -9,7 +9,7 @@ describe MalauzaiPlaces::Request do
 		@language = 'en'
 	end
 
-	context 'Lists places' do
+	context 'Lists places', vcr: {cassette_name: 'list_places'} do
 		it 'should retrieve a list of places' do
 			response = MalauzaiPlaces::Request.places(
 				:location => @location,

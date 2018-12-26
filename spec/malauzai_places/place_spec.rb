@@ -30,7 +30,7 @@ describe MalauzaiPlaces::Place do
 		end
 	end
 
-	context 'list places' do
+	context 'list places', vcr: {cassette_name: 'list_places'} do
 		after(:each) do
 			expect(@collection.map(&:class).uniq).to eq [MalauzaiPlaces::Place]
 		end
@@ -39,7 +39,7 @@ describe MalauzaiPlaces::Place do
 			@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :radius => @radius)
 		end
 
-		describe 'with a single type' do
+		describe 'with a single type', vcr: {cassette_name: 'list_places_one_type'} do
 			before(:each) do
 				@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :radius => @radius, :types => 'atm')
 			end
@@ -51,7 +51,7 @@ describe MalauzaiPlaces::Place do
 			end
 		end
 
-		describe 'with multiple types' do
+		describe 'with multiple types', vcr: {cassette_name: 'list_places_multiple_types'} do
 			before :each do
 				@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :radius => @radius, :types => ['atm','bank'])
 			end
@@ -63,7 +63,7 @@ describe MalauzaiPlaces::Place do
 			end
 		end
 
-		describe 'with language and types' do
+		describe 'with language and types', vcr: {cassette_name: 'list_places_with_language_and_types'} do
 			before :each do
 				@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :radius => @radius, :types => ['atm','bank'], :language => 'es')
 			end
@@ -77,7 +77,7 @@ describe MalauzaiPlaces::Place do
 		end
 	end
 
-	context 'Multiple page request scenarios' do
+	context 'Multiple page request scenarios', vcr: {cassette_name: 'multipage_request_list'} do
 		it 'should return more than 20 results when :multipage_request is true' do
 			@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :radius => @radius, :types => 'atm', :language => 'es', :multipage => true)
 			expect(@collection.size).to be >= 21
