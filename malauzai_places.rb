@@ -10,6 +10,10 @@ module MalauzaiPlaces
     class << self
 
         attr_accessor :api_key
+
+	def configuration
+		yield self
+	end
     
     end
 end
