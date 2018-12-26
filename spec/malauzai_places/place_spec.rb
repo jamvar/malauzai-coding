@@ -98,5 +98,28 @@ describe MalauzaiPlaces::Place do
 			expect(@collection.last.nextpagetoken).to_not be_nil
 		end
 	end
+
+	context 'list max_results of places' do
+		it 'should return at most 200 results when max_results is 200 for Customer A', vcr: {cassette_name: 'customer_A_200_places_search'} do
+			@collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :types => 'atm', :language => 'en', :multipage => true, :max_results => 200)
+			expect(@collection.size).to be <= 200
+			@collection.each do |place|
+				expect(place.types).to include('atm')
+			end
+		end
+
+		it 'should return at most 20 results when max_results is 20 for Customer B', vcr: {cassette_name: 'customer_B_20_places_search'} do
+                        @collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :types => 'bank', :language => 'es', :max_results => 20)
+                        expect(@collection.size).to be <= 20
+                        @collection.each do |place|
+                                expect(place.types).to include('bank')
+                        end
+                end
+
+		it 'should return at most 5 results when max_results is 5 for Customer C', vcr: {cassette_name: 'customer_C_5_places_search'} do
+                        @collection = MalauzaiPlaces::Place.list(@lat, @lng, api_key, :language => 'fr', :max_results => 5)
+                        expect(@collection.size).to be <= 5
+                end
+	end
 end
 

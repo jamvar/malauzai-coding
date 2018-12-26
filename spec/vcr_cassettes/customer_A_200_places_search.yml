@@ -1,0 +1,2511 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAvvuq7oyY5l7w_3ruvihI3Xdjjd1EEdhE&language=en&location=30.42847500,-97.75505000&name=&radius=&rankby=distance&types=atm
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 26 Dec 2018 12:00:59 GMT
+      Expires:
+      - Wed, 26 Dec 2018 12:05:59 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '5502'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=295
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CqQCGwEAACSgqjqVSV9bhvJclYGHlhDCXBTdaHPq2_KTJu3CRnBgUHmAFL3lGFz684DkyQCLu4zAXf5eq8q7UJkUIU9sre_36gYhTa1XGXusaYTHKcjx_KZfAxQMGp5OrWVCZ1bS5tUDwSxpjn04CHA2YEGNTG0WLzU82yeCFy-Gm0f2yhIiOfTrSRL62oPMd09tSniw6Acs-djsrW2Y8X4Fk0mNe-ss1GrPoUYnES-VFy9I00ilfFSvqB7r6di5aEkIP5oTZA5g9ZkoHza8CIkV5t8KvsSIDKaG6Hb2sf7_TN8QvYahx4zYD0NewV2tv5sZ7yiYWCIKunwiw2dshGTlfixeCNgw0cJ-PXfo_bi5ZhcqkA1n5rMvpXD-iOq_tYOrv4a0shIQFS5WTmydA2IqCTLLGQh0_RoUFB8d7lqpII_rCVW68qnrfesDinQ",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.42595,
+                       "lng" : -97.75458599999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.42739448029149,
+                          "lng" : -97.75317946970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4246965197085,
+                          "lng" : -97.75587743029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "2fef0ce113257d5e507c4169dd2243c8203a2fef",
+                 "name" : "Chase Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2620,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108179458561089234067/photos\"\u003eBenny Prukop\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAMvLvBsZbXgnfGWKh16S9m2288_Ioba5W0m1I88MMN13i0l2hsdE308qVga1JEZxqrZQmKk-pCuAjxpUZPsNc-FgzKO3oG2NRYFpbF5LxEQiOA-TeEsIYq5n8rqteVox2EhCN1MJ57S7FLfI-EcYh38XpGhR_8ei5aF9vGKmQJRM9JVQeVIauUw",
+                       "width" : 4656
+                    }
+                 ],
+                 "place_id" : "ChIJ664LsfrMRIYREOhT6CpcZbs",
+                 "plus_code" : {
+                    "compound_code" : "C6GW+95 Austin, Texas, United States",
+                    "global_code" : "8624C6GW+95"
+                 },
+                 "rating" : 3.6,
+                 "reference" : "ChIJ664LsfrMRIYREOhT6CpcZbs",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12222 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4259112,
+                       "lng" : -97.75462739999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4272001302915,
+                          "lng" : -97.75331586970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4245021697085,
+                          "lng" : -97.75601383029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "ab81085ebb015c5fdc20d752e32435358b157ff6",
+                 "name" : "ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJn-jCEeXMRIYRKGNfvmtWDUg",
+                 "plus_code" : {
+                    "compound_code" : "C6GW+94 Austin, Texas, United States",
+                    "global_code" : "8624C6GW+94"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJn-jCEeXMRIYRKGNfvmtWDUg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12222 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.42629029999999,
+                       "lng" : -97.75145959999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.42765148029149,
+                          "lng" : -97.74985761970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4249535197085,
+                          "lng" : -97.7525555802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "0a6143e694515e850e84865568acbef47a2fb67c",
+                 "name" : "A+FCU ATM",
+                 "place_id" : "ChIJW5LHwvrMRIYRHkS77vv3pRE",
+                 "plus_code" : {
+                    "compound_code" : "C6GX+GC Austin, Texas, United States",
+                    "global_code" : "8624C6GX+GC"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJW5LHwvrMRIYRHkS77vv3pRE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12007 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4283214,
+                       "lng" : -97.76000049999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4296633302915,
+                          "lng" : -97.75868446970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4269653697085,
+                          "lng" : -97.7613824302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "882ddaf12ce3e72040cd5bbf330163ccd22aaef0",
+                 "name" : "Shell",
+                 "photos" : [
+                    {
+                       "height" : 2448,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104043135211105414355/photos\"\u003eaustin Neelankavil\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAQVlXWGOZGQAKEzKRYTmLkbhC40Y2Sp3XmhIxfjxkKUTdJfGKx5D1KNJvsynHEY-4DcXCGcvhy0UNbV1eU9PNIZ3EKgDDqKWIqmNMVifcHQs9R1NyJvGh0o-jlVTMPEo7EhBqxBDk1AhNRER9M03-czkAGhTIaEwNAgmxI_-zrjyVTHmdJAHYKQ",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJ1zTT3ObMRIYR3S5fv-uKBFc",
+                 "plus_code" : {
+                    "compound_code" : "C6HQ+8X Austin, Texas, United States",
+                    "global_code" : "8624C6HQ+8X"
+                 },
+                 "price_level" : 2,
+                 "rating" : 2.9,
+                 "reference" : "ChIJ1zTT3ObMRIYR3S5fv-uKBFc",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "12518 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4228845,
+                       "lng" : -97.7553791
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4241419302915,
+                          "lng" : -97.75414306970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4214439697085,
+                          "lng" : -97.7568410302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "e6b795263f5bc0c0fc00eb149fc3de861206890e",
+                 "name" : "Renegade Technology Group",
+                 "place_id" : "ChIJrW_4dO_MRIYRHyoZoBNmJqE",
+                 "plus_code" : {
+                    "compound_code" : "C6FV+5R Austin, Texas, United States",
+                    "global_code" : "8624C6FV+5R"
+                 },
+                 "reference" : "ChIJrW_4dO_MRIYRHyoZoBNmJqE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11835 Jollyville Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4305789,
+                       "lng" : -97.7611086
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4319181802915,
+                          "lng" : -97.75973826970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4292202197085,
+                          "lng" : -97.7624362302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "22415926ffd777134b2dbf5efab7c72b629e9718",
+                 "name" : "ATM",
+                 "place_id" : "ChIJGQ6J2-DMRIYRH4rLh_7d9PA",
+                 "plus_code" : {
+                    "compound_code" : "C6JQ+6H Austin, Texas, United States",
+                    "global_code" : "8624C6JQ+6H"
+                 },
+                 "reference" : "ChIJGQ6J2-DMRIYRH4rLh_7d9PA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12575 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4309881,
+                       "lng" : -97.7610277
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4323686302915,
+                          "lng" : -97.7597525697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4296706697085,
+                          "lng" : -97.7624505302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "d48d744c9b604bd8dfbacdc5d728ae4766ba4176",
+                 "name" : "Horizon Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1536,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111422595620982549484/photos\"\u003eHorizon Bank\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRZAAAABRlnBkgrJeB9VkFzpHafcIPVBoXVQxpyAkJA55S3R0BtR8Et4vae86RpXweSSUZ9aFImimfjhQKSKB8N86Meo6hziKQ8IWbMpleyRWEILUETjtqnzNmSrPsGWYJEE9zjEhBtPlgTWQUF7wymYnyNGwSaGhSmg9549e1tHAZV0wNOgbslBcFHnQ",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJmZVL5uDMRIYRXEg4pv3Uvns",
+                 "plus_code" : {
+                    "compound_code" : "C6JQ+9H Austin, Texas, United States",
+                    "global_code" : "8624C6JQ+9H"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJmZVL5uDMRIYRXEg4pv3Uvns",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12007 Technology Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4294175,
+                       "lng" : -97.76170719999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4307018302915,
+                          "lng" : -97.76040061970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4280038697085,
+                          "lng" : -97.7630985802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "04b71772012c77fb4bd8c4be86f8cbb1f6486353",
+                 "name" : "Bank of America ATM",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118374428964852911791/photos\"\u003ePhillip Barnhart\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAU9OmW0I8P0Jg-XTrr15xhLNLCS_4ovtAYTB4CiJfRUcYpgAmBMrgDrTkWGB7qj9T85TnhudLxKRueyX0IreO5WLxpwfj68Ll9M4GsleBq3wxgpH73XEc93J3S1bGwoeiEhBMFcD3WtpMS4Bta9s1IUV6GhQcZoFVBnTfSPlwyqJY6AarH6dv9g",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ2_Iny-DMRIYRGv0AbjQKFos",
+                 "plus_code" : {
+                    "compound_code" : "C6HQ+Q8 Austin, Texas, United States",
+                    "global_code" : "8624C6HQ+Q8"
+                 },
+                 "rating" : 2,
+                 "reference" : "ChIJ2_Iny-DMRIYRGv0AbjQKFos",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4305961,
+                       "lng" : -97.7659735
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4318513302915,
+                          "lng" : -97.7647506697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4291533697085,
+                          "lng" : -97.76744863029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "59b785296549b1e61525848cdc18606f8b7c9765",
+                 "name" : "Austin Telco Federal Credit Union",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2448,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105452199614200695491/photos\"\u003eDillon Smith\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAww26pEiQ_gogeOKjWJB3G8dnPdfhAGdolxtxrIetH4hbg0UUhvzKeSJnVGjP_UV35MPKMOSzvSwMwcQ4KHDdrNV-AosQZppUau-OpsaotCKQZaIZwLQGUfAe5N6g9H4CEhBlnVC1l5cbC5wD0GsaRZYgGhR7OB8TgWSeq2rFAwJ6DPG7fYGOUw",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJ3XDNQt7MRIYRV4AaJ8QOBNE",
+                 "plus_code" : {
+                    "compound_code" : "C6JM+6J Austin, Texas, United States",
+                    "global_code" : "8624C6JM+6J"
+                 },
+                 "rating" : 3.8,
+                 "reference" : "ChIJ3XDNQt7MRIYRV4AaJ8QOBNE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "bank", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12188 Jollyville Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.432254,
+                       "lng" : -97.766931
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4337001802915,
+                          "lng" : -97.7655162697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4310022197085,
+                          "lng" : -97.76821423029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "b3b911d72d525a5ea24a82d97d768ee0e34e14eb",
+                 "name" : "ATM",
+                 "place_id" : "ChIJjbw8HN_MRIYRkYPNsCXZR00",
+                 "plus_code" : {
+                    "compound_code" : "C6JM+W6 Austin, Texas, United States",
+                    "global_code" : "8624C6JM+W6"
+                 },
+                 "reference" : "ChIJjbw8HN_MRIYRkYPNsCXZR00",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12730 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4349504,
+                       "lng" : -97.7668122
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4364393302915,
+                          "lng" : -97.76552556970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4337413697085,
+                          "lng" : -97.76822353029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "6583a55bc25644eb830e711b773e51356242c8dd",
+                 "name" : "Cardtronics ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJfS7WO8DNRIYR7aHMUDmaMFA",
+                 "plus_code" : {
+                    "compound_code" : "C6MM+X7 Austin, Texas, United States",
+                    "global_code" : "8624C6MM+X7"
+                 },
+                 "reference" : "ChIJfS7WO8DNRIYR7aHMUDmaMFA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "7309 McNeil Drive, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4414374,
+                       "lng" : -97.75028569999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4425823302915,
+                          "lng" : -97.74883021970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4398843697085,
+                          "lng" : -97.7515281802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "a6aac1e56b6aee2b0dcabf57e5a555f73d48a37a",
+                 "name" : "ATM",
+                 "place_id" : "ChIJC4yMiAPNRIYRW984V9rBu4A",
+                 "plus_code" : {
+                    "compound_code" : "C6RX+HV Austin, Texas, United States",
+                    "global_code" : "8624C6RX+HV"
+                 },
+                 "reference" : "ChIJC4yMiAPNRIYRW984V9rBu4A",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6294 McNeil Drive, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.417138,
+                       "lng" : -97.745914
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4183016802915,
+                          "lng" : -97.7445289197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4156037197085,
+                          "lng" : -97.74722688029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "4f2d2750ab4c8ad3cb3ae3498a214352bb24d14a",
+                 "name" : "Shell",
+                 "photos" : [
+                    {
+                       "height" : 955,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113359179597487495544/photos\"\u003eJack Warman\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAArai4k1udYiVD6FMwD6m944BgKojNn6G-seA1f3AL10lgtZgC5hhI9A5rMB-plL1GidOLx50PEOexB2vS97Rux_IGY2-r82zLjxnVSK9fvl3pGesKB8ik1TJq5zYWP7-2EhAh-Vn5qugn5AH4YaNSGsT3GhQ6zNvjIEbTKIhXhghAwNwg25Cyhg",
+                       "width" : 3130
+                    }
+                 ],
+                 "place_id" : "ChIJHQKAafTMRIYRljL-QKR9l7o",
+                 "plus_code" : {
+                    "compound_code" : "C783+VJ Austin, Texas, United States",
+                    "global_code" : "8624C783+VJ"
+                 },
+                 "price_level" : 2,
+                 "rating" : 3.6,
+                 "reference" : "ChIJHQKAafTMRIYRljL-QKR9l7o",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "11655 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.43343280000001,
+                       "lng" : -97.7703992
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4349085302915,
+                          "lng" : -97.7689404697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4322105697085,
+                          "lng" : -97.7716384302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "2c1132b6962a7c53a0434906c4c8e34c37e1b756",
+                 "name" : "ABC Bank - American Bank of Commerce",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 342,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104182831179547084029/photos\"\u003eABC Bank - American Bank of Commerce\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAQntbjB_r0LGbkSSciGnl8YsmO8CTosJcewCMr0A-cxrGpJqK_9LlI9WfdyBimx3WnAN3g0oTAp-Fy0F3HVpI5UtCFVLlYnlEuc3waIM0cRllIuAcjEOvSA563AA9pdacEhAdOnjPcUYLjBu28OfEdTS6GhSGQE6LNflDv-Xhriy8Vh0ef7FrKg",
+                       "width" : 479
+                    }
+                 ],
+                 "place_id" : "ChIJyR1A7tjMRIYRt8A5AmV-hMQ",
+                 "plus_code" : {
+                    "compound_code" : "C6MH+9R Austin, Texas, United States",
+                    "global_code" : "8624C6MH+9R"
+                 },
+                 "reference" : "ChIJyR1A7tjMRIYRt8A5AmV-hMQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "8668 Spicewood Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4334513,
+                       "lng" : -97.77098669999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.43495838029149,
+                          "lng" : -97.76969881970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4322604197085,
+                          "lng" : -97.77239678029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "ba1958f19ec53f4531a7ccb32355fe3f1d0fe794",
+                 "name" : "Circle K",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 608,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106729057115042990325/photos\"\u003eCircle K\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAGG8Rnz46C-wPcGp3PV7wvcJd1HWSEoEf4mhKObGF41Kpp7u8YqCgY0zkOnrQJntz4gkqXUhb9MS8MiHZJlnTzCqiEvH8XzD4lq9qHkCO0vQx_CNJjMJMwd9rc4C29qs0EhB6UoI5xSIQgG7KwIItHoyjGhRpolupL1Cb_5SOo0rmlqUuFPqF0Q",
+                       "width" : 1080
+                    }
+                 ],
+                 "place_id" : "ChIJC2LHjdjMRIYR9bM4d8T6ivY",
+                 "plus_code" : {
+                    "compound_code" : "C6MH+9J Austin, Texas, United States",
+                    "global_code" : "8624C6MH+9J"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.3,
+                 "reference" : "ChIJC2LHjdjMRIYR9bM4d8T6ivY",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "atm",
+                    "cafe",
+                    "car_wash",
+                    "gas_station",
+                    "meal_takeaway",
+                    "finance",
+                    "store",
+                    "restaurant",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "8656 Spicewood Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4334513,
+                       "lng" : -97.77098669999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.43495838029149,
+                          "lng" : -97.76969881970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4322604197085,
+                          "lng" : -97.77239678029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "f8e2de701603e78f2a5936f4fd0f5cd81b63468a",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107053770782570363265/photos\"\u003eFrost Bank ATM\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA6cV6QqJ-PbdQW__61UVjk1AK0F3ZJk5pKqb3pDkgxFwK16ja8QGdo7_yGecH0M_16hRPEu3r0goOxejQDRukhFyMtI-lLZc0QCC77tcAh18HHBprC1MStHX9QnCmIXD3EhD8DDWuAaGXZtlZrOftwbUaGhQvuhd0GfSv_d8i1oHYyIN1hwQf8A",
+                       "width" : 3000
+                    }
+                 ],
+                 "place_id" : "ChIJI6vbidjMRIYRDrNSoos-7O0",
+                 "plus_code" : {
+                    "compound_code" : "C6MH+9J Austin, Texas, United States",
+                    "global_code" : "8624C6MH+9J"
+                 },
+                 "reference" : "ChIJI6vbidjMRIYRDrNSoos-7O0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "8656 Spicewood Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4164009,
+                       "lng" : -97.7453979
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4177992802915,
+                          "lng" : -97.74414321970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4151013197085,
+                          "lng" : -97.7468411802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "8cf5e49b3295b1c366cd1dc8ab7534018bb824fb",
+                 "name" : "BBVA Compass ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJn19UWfTMRIYRNcQ6CPauwGg",
+                 "plus_code" : {
+                    "compound_code" : "C783+HR Austin, Texas, United States",
+                    "global_code" : "8624C783+HR"
+                 },
+                 "reference" : "ChIJn19UWfTMRIYRNcQ6CPauwGg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11643 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.41638799999999,
+                       "lng" : -97.74538369999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.41779083029149,
+                          "lng" : -97.74413751970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.41509286970849,
+                          "lng" : -97.74683548029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "9aa8dffda827da8c26b3d064e3b8674a487d12e7",
+                 "name" : "The Bailey Group",
+                 "place_id" : "ChIJFyxHZvTMRIYRI19Wsbukuik",
+                 "plus_code" : {
+                    "compound_code" : "C783+HR Austin, Texas, United States",
+                    "global_code" : "8624C783+HR"
+                 },
+                 "reference" : "ChIJFyxHZvTMRIYRI19Wsbukuik",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11643 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4340774,
+                       "lng" : -97.77216999999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4355604802915,
+                          "lng" : -97.77075841970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4328625197085,
+                          "lng" : -97.77345638029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "38c6070763e471755a7a948e6a8f95280c0b1ece",
+                 "name" : "Chase Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105021975361686123003/photos\"\u003ePeter Gregg\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAfMKhw1gP_IEBp9gSQF9OkjRJEMM5UQeYv5LMw24Y8IquhyYKXD3ElnfbfG-_dvDPydAgp4vxK69uJXHnC0uxc_QRyzSDIsYq2I2Tb5bmcw2qRUgE7AnMd6GKJG09GTxTEhBv6RaorwwPCCNVkld8pEheGhR2Cn86TU-FCvPBH0eSH-TdiLhNPw",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJa9mY7uDMRIYR6eVz7NxY0ZA",
+                 "plus_code" : {
+                    "compound_code" : "C6MH+J4 Austin, Texas, United States",
+                    "global_code" : "8624C6MH+J4"
+                 },
+                 "rating" : 3.1,
+                 "reference" : "ChIJa9mY7uDMRIYR6eVz7NxY0ZA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12858 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4339994,
+                       "lng" : -97.7722247
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4353017302915,
+                          "lng" : -97.77078346970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4326037697085,
+                          "lng" : -97.7734814302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "b251111a4173a1fb26b8d14592bf9db64bffc78a",
+                 "name" : "Chase ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJzWiAetjMRIYRZxe5sJkCnfU",
+                 "plus_code" : {
+                    "compound_code" : "C6MH+H4 Austin, Texas, United States",
+                    "global_code" : "8624C6MH+H4"
+                 },
+                 "reference" : "ChIJzWiAetjMRIYRZxe5sJkCnfU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "Austin"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 26 Dec 2018 12:00:59 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAvvuq7oyY5l7w_3ruvihI3Xdjjd1EEdhE&pagetoken=CqQCGwEAACSgqjqVSV9bhvJclYGHlhDCXBTdaHPq2_KTJu3CRnBgUHmAFL3lGFz684DkyQCLu4zAXf5eq8q7UJkUIU9sre_36gYhTa1XGXusaYTHKcjx_KZfAxQMGp5OrWVCZ1bS5tUDwSxpjn04CHA2YEGNTG0WLzU82yeCFy-Gm0f2yhIiOfTrSRL62oPMd09tSniw6Acs-djsrW2Y8X4Fk0mNe-ss1GrPoUYnES-VFy9I00ilfFSvqB7r6di5aEkIP5oTZA5g9ZkoHza8CIkV5t8KvsSIDKaG6Hb2sf7_TN8QvYahx4zYD0NewV2tv5sZ7yiYWCIKunwiw2dshGTlfixeCNgw0cJ-PXfo_bi5ZhcqkA1n5rMvpXD-iOq_tYOrv4a0shIQFS5WTmydA2IqCTLLGQh0_RoUFB8d7lqpII_rCVW68qnrfesDinQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 26 Dec 2018 12:01:02 GMT
+      Expires:
+      - Wed, 26 Dec 2018 12:06:02 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '5604'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=534
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CsQDuwEAAGTSGOXTUvlyrwpfHRHeCTOh-hbYoSKqw1j1ecZxhK6DD6huRwP6OS7CVxlAFD50AH26GhRqilSlo794Qz079hW7DlhVBjpcoi_2d4MDyQZ-bfjOsgG8jDIdJ0NeHSTXfV6vj2QQRaWeIFXTGr0SbAJJZFhxTqbHnGSKRmf4KluO-JBad-O91Oepir4zTQ8sa4e50mGKhqu0wRtM1Irrkx8uW8_5a0ElTJXWECia_11cu3BaJ_HBrfWGaChrdCIrS0obqZHBii_txnjE0HsYnLrPX0kMd2qAXTP4XAsDsUvwrzbKRgxfUcTTlu23rOOQ0LOl-sm3k7WWHX7y11mYNyJFMGF6K972RvIQpv9DTBwMGPqCLIMdSnWHFHYmSSs0l4picaPPNaHThlKK_pkq0A4__Z49AtzjZ6eJUskYSF9IELa7rjIK_iVuyB7mTDJr0d2S0v41wGh-VzrjhzDfaEDyRmd5RKaE3w_0S7D92xUCvonIZ2Gubz_mwwi6ee4VPYuUl17yEMTrr13FrouGEeOmXzYooJupWN4m9jKYCTMcbUM2VkQfI0R1a5o-r9_rXwTu9tKAoyO7GrCla8e8zB4SENF3lrvToCDBeoY3FnXYaIQaFP9DngUabb7ucwb_DLfvPJcG8PEg",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4141843,
+                       "lng" : -97.7466891
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4154684802915,
+                          "lng" : -97.74567786970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4127705197085,
+                          "lng" : -97.74837583029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "713af6c1d83276f26b80fa46398625c6913e9c3d",
+                 "name" : "Shell",
+                 "photos" : [
+                    {
+                       "height" : 303,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112201665938831550247/photos\"\u003eShell\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAhZr5p0Q1VqQMIusdpB_HHLbT704i-j0ggD9iZlonx9GTEt-DorJBWyiXAL8ZCuLIbDbLscSe1EJeGJOegisgfLXA3g9SZ19pnQ_OufbbSvk-8bYvCvTNyMxz5SgajLulEhAPLp7cB1aTdG5FGAhGJ8gmGhR1HJxe7HdHZEz0kh-SSQrftKMxWQ",
+                       "width" : 303
+                    }
+                 ],
+                 "place_id" : "ChIJ6UFtpPTMRIYR9T4x8aix928",
+                 "plus_code" : {
+                    "compound_code" : "C773+M8 Austin, Texas, United States",
+                    "global_code" : "8624C773+M8"
+                 },
+                 "price_level" : 2,
+                 "reference" : "ChIJ6UFtpPTMRIYR9T4x8aix928",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "11570 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4140013,
+                       "lng" : -97.74685029999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4153515302915,
+                          "lng" : -97.74550156970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4126535697085,
+                          "lng" : -97.7481995302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "1c450ecc5d310cdf11c1044dbe55abf7d3dc0300",
+                 "name" : "Cardtronics ATM",
+                 "place_id" : "ChIJBa6kpvTMRIYRxuy0iH9bEoY",
+                 "plus_code" : {
+                    "compound_code" : "C773+J7 Austin, Texas, United States",
+                    "global_code" : "8624C773+J7"
+                 },
+                 "rating" : 1,
+                 "reference" : "ChIJBa6kpvTMRIYRxuy0iH9bEoY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11570 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4361643,
+                       "lng" : -97.77199859999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4374170802915,
+                          "lng" : -97.77071291970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4347191197085,
+                          "lng" : -97.77341088029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "21e20b2ab42478592b7b25b9f059079182b2dfed",
+                 "name" : "BBVA Compass ATM In HEB",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJj72xdtjMRIYRaZjpoNYqBkU",
+                 "plus_code" : {
+                    "compound_code" : "C6PH+F6 Austin, Texas, United States",
+                    "global_code" : "8624C6PH+F6"
+                 },
+                 "reference" : "ChIJj72xdtjMRIYRaZjpoNYqBkU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12860 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4342475,
+                       "lng" : -97.7730589
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4358203802915,
+                          "lng" : -97.77157101970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4331224197085,
+                          "lng" : -97.7742689802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "32ca8479ddf1ebf9c710de95c0980264ad78c97f",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 768,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110607003452648534127/photos\"\u003eFrost Bank ATM\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAlUHLz-xGSqy9Xibph05gLAFPoSoWAJk564GJQs6RrgJikO08RBhWqHVd-RlxqlKgXL70q5QHInr8JTrLD-boxuu1Ql95t9SDaISVH0hIiHsZNnlcKXzQeCSt-twSjga-EhBnMp67GxZj6vdh1vpDaIl6GhR4AcXVwYfXSkTkGmqhtVwJIoEKgg",
+                       "width" : 768
+                    }
+                 ],
+                 "place_id" : "ChIJjT3yXqcyW4YRHm-D2APp4rY",
+                 "plus_code" : {
+                    "compound_code" : "C6MG+MQ Austin, Texas, United States",
+                    "global_code" : "8624C6MG+MQ"
+                 },
+                 "reference" : "ChIJjT3yXqcyW4YRHm-D2APp4rY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "12860 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4413858,
+                       "lng" : -97.742566
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4425644802915,
+                          "lng" : -97.74109921970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4398665197085,
+                          "lng" : -97.74379718029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "5e7fa632abc865d9f49b25be324a3774da335815",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 4008,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101715999761118452902/photos\"\u003eAllen Adams\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAhrqYSOZT1uh9ZUA3GRQRszpJOTsry0mlJqsSpGkqVwlmVpXGpDsNOJ3xBBgOgYj9Kf0NpVSIG7QL8tnCTmIrRhttCcEx5oantG1fl-amNq_QSq0xQ89B0gGL5CiUGm7cEhCO0WxKd8uRBOlH25PKqUmhGhRaqU10fZHy-_yK7OpcUV6dzA5RqA",
+                       "width" : 5344
+                    }
+                 ],
+                 "place_id" : "ChIJhRaSsADNRIYRkFFZiI3OQAA",
+                 "plus_code" : {
+                    "compound_code" : "C7R4+HX Austin, Texas, United States",
+                    "global_code" : "8624C7R4+HX"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJhRaSsADNRIYRkFFZiI3OQAA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6001 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4134927,
+                       "lng" : -97.74517150000001
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4147742802915,
+                          "lng" : -97.74380331970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4120763197085,
+                          "lng" : -97.7465012802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "42306d6acbda11ef35e876e1e0dec25a12ba9a8b",
+                 "name" : "Prosperity Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2156,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113359179597487495544/photos\"\u003eJack Warman\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAUMxSgSI74U6VfRk-k1agpABjkVO_8ptzi-v9gbqKw45QuYnG5USxhEe-hVFbj_nycYY2iHgUc_KimLqhi2CY8fV_G4HwbHwHWzwBVE4DpVwORSHmB22RmxbkLqLblsIrEhAVBSQWzTkcKwDSXzAU5T6GGhQR0t7faRSbLyMIlUhdVItxMw3-Aw",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJN_YPisDLRIYRz8krlQvaSOk",
+                 "plus_code" : {
+                    "compound_code" : "C773+9W Austin, Texas, United States",
+                    "global_code" : "8624C773+9W"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJN_YPisDLRIYRz8krlQvaSOk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11545 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4437565,
+                       "lng" : -97.74388479999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4450440302915,
+                          "lng" : -97.74245881970847
+                       },
+                       "southwest" : {
+                          "lat" : 30.4423460697085,
+                          "lng" : -97.7451567802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "fcaa19b40f582b84a371507dd8bae322504629f2",
+                 "name" : "Wells Fargo Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1836,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110226625681101522158/photos\"\u003eRaghav Kothakota\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAIMEC1X4gU_YQ5C2KWPCqYzOwsKi8swvPIz7RstMqsiupExWke71UsNduoKTvRDPMvJJKblpjJZ743U0id0yoFH2OQGQDiEgFcT82fAxZ1QJcXHpYFR6GfOUEIrNT7eMrEhCvaKAx7Griz33wG7Wosl7BGhTgeK5PX4VUij1e5PB8WqhTAFUqWg",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJpf3d_wbNRIYRFlLLOs2PQXg",
+                 "plus_code" : {
+                    "compound_code" : "C7V4+GC Jollyville, Texas, United States",
+                    "global_code" : "8624C7V4+GC"
+                 },
+                 "rating" : 3.1,
+                 "reference" : "ChIJpf3d_wbNRIYRFlLLOs2PQXg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6208 McNeil Drive, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4437837,
+                       "lng" : -97.74391949999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4450498302915,
+                          "lng" : -97.74249736970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4423518697085,
+                          "lng" : -97.74519533029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "6450d910cc5a3e087f805b90ce24400657e0370f",
+                 "name" : "Wells Fargo ATM",
+                 "place_id" : "ChIJWWiAGQfNRIYRrlMDrDsC45g",
+                 "plus_code" : {
+                    "compound_code" : "C7V4+GC Jollyville, Texas, United States",
+                    "global_code" : "8624C7V4+GC"
+                 },
+                 "rating" : 1,
+                 "reference" : "ChIJWWiAGQfNRIYRrlMDrDsC45g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4436592,
+                       "lng" : -97.7427251
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4449940802915,
+                          "lng" : -97.74136916970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.44229611970851,
+                          "lng" : -97.7440671302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "c26175a217b5816f237344512cf5cb16b81989a4",
+                 "name" : "Mail Time",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJMb7RawfNRIYR5yGZT0_Edic",
+                 "plus_code" : {
+                    "compound_code" : "C7V4+FW Austin, Texas, United States",
+                    "global_code" : "8624C7V4+FW"
+                 },
+                 "reference" : "ChIJMb7RawfNRIYR5yGZT0_Edic",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6101-6211 McNeil Drive, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4439702,
+                       "lng" : -97.743167
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4452446802915,
+                          "lng" : -97.74178531970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4425467197085,
+                          "lng" : -97.7444832802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "ab8590868f9e1fbd2c45469b59b4e9c5d0e95c5e",
+                 "name" : "Circle K",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 608,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104721816172739412747/photos\"\u003eCircle K\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAHTlTrJw4q-1JiAooBe2uSdFo70FLcAgUzy0rGGf0L_Se0tQtMF2yTRKTzrYqcHQeGtGYnzVFdyy_9LwNRieCuOH3B6L5xasE8Y5RbzZ6J0Vf9ZnlH1vC5PITLjl3ywD9EhBI36omTQM1a5X-SRqz8odAGhRH5FRSzjdElNciSAFy6CGH0ZxBgw",
+                       "width" : 1080
+                    }
+                 ],
+                 "place_id" : "ChIJM6yUbgfNRIYRB7HNALAZD-4",
+                 "plus_code" : {
+                    "compound_code" : "C7V4+HP Jollyville, Texas, United States",
+                    "global_code" : "8624C7V4+HP"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.3,
+                 "reference" : "ChIJM6yUbgfNRIYRB7HNALAZD-4",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "atm",
+                    "car_wash",
+                    "gas_station",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "5107 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4440028,
+                       "lng" : -97.7430727
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4454017802915,
+                          "lng" : -97.7416620697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4427038197085,
+                          "lng" : -97.7443600302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "c76c3585d723ba905e026e070dda4603f1771bb0",
+                 "name" : "Shell",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106446331064120875872/photos\"\u003eStephen Niemeyer\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAS_wL4U6K8BBOxVXzTfMteLweZMxC7WPqbcvwonZJOekZs-U5QjK3IuK_gkLr_E938lm9XcwrDuT8HB35-opx0YQj3OcS2cLO8WZZ-P2U5KMG80XmLiprqQouyH3sY4XGEhBCxQQaeIxwreHUom_Ry-j4GhRdzhu-TF4c1l0Kc5-XHxQfbfG4ww",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ5RjEEgfNRIYRg6MikjTtolE",
+                 "plus_code" : {
+                    "compound_code" : "C7V4+JQ Jollyville, Texas, United States",
+                    "global_code" : "8624C7V4+JQ"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.7,
+                 "reference" : "ChIJ5RjEEgfNRIYRg6MikjTtolE",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "car_wash",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "6107 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.443357,
+                       "lng" : -97.74147819999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4447310802915,
+                          "lng" : -97.7401416197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4420331197085,
+                          "lng" : -97.7428395802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "8a7b6d4d5cca1b1398942f9590d12658022a2ab3",
+                 "name" : "ATM (Tiger Tote Food Stores)",
+                 "place_id" : "ChIJ6ws63qnNRIYRKNovmw8ywu0",
+                 "plus_code" : {
+                    "compound_code" : "C7V5+8C Austin, Texas, United States",
+                    "global_code" : "8624C7V5+8C"
+                 },
+                 "reference" : "ChIJ6ws63qnNRIYRKNovmw8ywu0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6010 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.443357,
+                       "lng" : -97.74147819999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4447310802915,
+                          "lng" : -97.7401416197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4420331197085,
+                          "lng" : -97.7428395802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "3afd6ce327d3364e23e614a28a76785f10fd6e37",
+                 "name" : "Access to Money",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJJUveXQfNRIYRKsh91sTbL64",
+                 "plus_code" : {
+                    "compound_code" : "C7V5+8C Austin, Texas, United States",
+                    "global_code" : "8624C7V5+8C"
+                 },
+                 "reference" : "ChIJJUveXQfNRIYRKsh91sTbL64",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6010 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.443657,
+                       "lng" : -97.741463
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44499813029149,
+                          "lng" : -97.74021606970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4423001697085,
+                          "lng" : -97.7429140302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "3f498a713799a560038313e34180511a10e99fd5",
+                 "name" : "Stop N Start #3",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2988,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105107175154977564237/photos\"\u003eStop N Start #3\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAyMdaCQLId1ekUT1EjGztOZaK2JtnHf-H7CDymTAX64FzTUQ5bAuPDmMWjaq8O-F88vFzmLmharsbpXausU0bIapyRj1oTAkmjlGOXS9FJ25n6O6xNrmZZeiwYihmGmHlEhBKq5HkRImOt8LEB1KXU21tGhRx5YKsbAI0XeiwW0bkdXZDHDnPAA",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJ6ws63qnNRIYRwbybmBHitW0",
+                 "plus_code" : {
+                    "compound_code" : "C7V5+FC Austin, Texas, United States",
+                    "global_code" : "8624C7V5+FC"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJ6ws63qnNRIYRwbybmBHitW0",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "6010 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4436616,
+                       "lng" : -97.7414581
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44504073029149,
+                          "lng" : -97.7400305197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4423427697085,
+                          "lng" : -97.7427284802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "eaa5a5d9504b4bdd44e1e844ed31f36577c227c3",
+                 "name" : "Dr ATM II, Inc.",
+                 "place_id" : "ChIJ6ws63qnNRIYRQbLE7xXIVMo",
+                 "plus_code" : {
+                    "compound_code" : "C7V5+FC Austin, Texas, United States",
+                    "global_code" : "8624C7V5+FC"
+                 },
+                 "reference" : "ChIJ6ws63qnNRIYRQbLE7xXIVMo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6010 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.445215,
+                       "lng" : -97.74391949999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4464850302915,
+                          "lng" : -97.7425317197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4437870697085,
+                          "lng" : -97.7452296802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "a9662af81e6b079b93b43269977abe014e1bb4ba",
+                 "name" : "JPMorgan Chase",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJT8pdAQfNRIYRM0Pnt1QIZM0",
+                 "plus_code" : {
+                    "compound_code" : "C7W4+3C Jollyville, Texas, United States",
+                    "global_code" : "8624C7W4+3C"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJT8pdAQfNRIYRM0Pnt1QIZM0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6301 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.446091,
+                       "lng" : -97.74438599999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4473275302915,
+                          "lng" : -97.7430750697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4446295697085,
+                          "lng" : -97.7457730302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "23110aec5f280a5eaece4673bd5df36118a7374d",
+                 "name" : "Chase Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112654457594047986846/photos\"\u003eAlexandra Alfaro\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAuSCD-Y8-VdJ0YMUpQB9xM8IWsd2SFWuFpXzvfZP85sUd7R8Uwn-tHZJXrFcKQSK8oUwbNTFiG0FbIsi5MxppzFWvqLnkTp9D9APoOxOycV49wUlprmXIBy0rGOQ3V0NIEhBSlLKRCKAGBaOXbpyupUecGhRn9QmN3evaRT4kqEA4kwHyjUYgNA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJT8pdAQfNRIYR95FHKvHIiJk",
+                 "plus_code" : {
+                    "compound_code" : "C7W4+C6 Jollyville, Texas, United States",
+                    "global_code" : "8624C7W4+C6"
+                 },
+                 "rating" : 3.9,
+                 "reference" : "ChIJT8pdAQfNRIYR95FHKvHIiJk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "6301 West Parmer Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4409469,
+                       "lng" : -97.7735484
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4423812802915,
+                          "lng" : -97.77223976970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.43968331970851,
+                          "lng" : -97.7749377302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "d8aab7bec184e558f540f264f07ee3f8bef6c2fc",
+                 "name" : "Valero",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJT10J8CXNRIYRYwIoeKCDZwI",
+                 "plus_code" : {
+                    "compound_code" : "C6RG+9H Austin, Texas, United States",
+                    "global_code" : "8624C6RG+9H"
+                 },
+                 "rating" : 2.6,
+                 "reference" : "ChIJT10J8CXNRIYRYwIoeKCDZwI",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "13014 Pond Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4407861,
+                       "lng" : -97.77384099999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4421732802915,
+                          "lng" : -97.77246406970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4394753197085,
+                          "lng" : -97.77516203029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "68cbebab83d8f7dce3bd4a4fad11b0ce84ebd661",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 4160,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102148981572796674007/photos\"\u003ePurepecha Guerrero\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAASoDfvmgR9AZNPyHdTDGd-NiHA_Wr4vSxqcS57nGK3W6s8-XdtrYAI4eGkfAxOKwJBaIcbY7kPq1u_sj9G2wAbZKHlK0Da-uROjao0D2ZT9d7pPzFB9UjnZrjXHhK3YSiEhDSYI5XkZj4yHByO9EWGFE0GhQgZ9_Cl63SpXNtg6ivQXlFP5RHOA",
+                       "width" : 2340
+                    }
+                 ],
+                 "place_id" : "ChIJnWRJ-t3RRIYRHyOeYLGef5Y",
+                 "plus_code" : {
+                    "compound_code" : "C6RG+8F Austin, Texas, United States",
+                    "global_code" : "8624C6RG+8F"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJnWRJ-t3RRIYRHyOeYLGef5Y",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13014 Pond Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4309158,
+                       "lng" : -97.73053379999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.43227273029149,
+                          "lng" : -97.7291761697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.42957476970849,
+                          "lng" : -97.7318741302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "7aa8ff5298cd2a630c5c56526cfd1c40768034bc",
+                 "name" : "ATM",
+                 "place_id" : "ChIJ90_hA07MRIYRmFePx7-5qN4",
+                 "plus_code" : {
+                    "compound_code" : "C7J9+9Q Austin, Texas, United States",
+                    "global_code" : "8624C7J9+9Q"
+                 },
+                 "reference" : "ChIJ90_hA07MRIYRmFePx7-5qN4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "5300 Riata Park Court, Austin"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 26 Dec 2018 12:01:02 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyAvvuq7oyY5l7w_3ruvihI3Xdjjd1EEdhE&pagetoken=CsQDuwEAAGTSGOXTUvlyrwpfHRHeCTOh-hbYoSKqw1j1ecZxhK6DD6huRwP6OS7CVxlAFD50AH26GhRqilSlo794Qz079hW7DlhVBjpcoi_2d4MDyQZ-bfjOsgG8jDIdJ0NeHSTXfV6vj2QQRaWeIFXTGr0SbAJJZFhxTqbHnGSKRmf4KluO-JBad-O91Oepir4zTQ8sa4e50mGKhqu0wRtM1Irrkx8uW8_5a0ElTJXWECia_11cu3BaJ_HBrfWGaChrdCIrS0obqZHBii_txnjE0HsYnLrPX0kMd2qAXTP4XAsDsUvwrzbKRgxfUcTTlu23rOOQ0LOl-sm3k7WWHX7y11mYNyJFMGF6K972RvIQpv9DTBwMGPqCLIMdSnWHFHYmSSs0l4picaPPNaHThlKK_pkq0A4__Z49AtzjZ6eJUskYSF9IELa7rjIK_iVuyB7mTDJr0d2S0v41wGh-VzrjhzDfaEDyRmd5RKaE3w_0S7D92xUCvonIZ2Gubz_mwwi6ee4VPYuUl17yEMTrr13FrouGEeOmXzYooJupWN4m9jKYCTMcbUM2VkQfI0R1a5o-r9_rXwTu9tKAoyO7GrCla8e8zB4SENF3lrvToCDBeoY3FnXYaIQaFP9DngUabb7ucwb_DLfvPJcG8PEg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 26 Dec 2018 12:01:05 GMT
+      Expires:
+      - Wed, 26 Dec 2018 12:06:05 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '5380'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=544
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.407155,
+                       "lng" : -97.744068
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4085123302915,
+                          "lng" : -97.7429383197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4058143697085,
+                          "lng" : -97.74563628029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "b1057f0802342dcbbae822c82edaf43f414f152d",
+                 "name" : "Austin Telco Federal Credit Union",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJhxI5hInMRIYRRuYn1wrZ7lg",
+                 "plus_code" : {
+                    "compound_code" : "C744+V9 Austin, Texas, United States",
+                    "global_code" : "8624C744+V9"
+                 },
+                 "rating" : 3.1,
+                 "reference" : "ChIJhxI5hInMRIYRRuYn1wrZ7lg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "bank", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11149 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.44383729999999,
+                       "lng" : -97.77584069999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44506148029149,
+                          "lng" : -97.77461681970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.44236351970849,
+                          "lng" : -97.7773147802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "2ce77d7770c16a24c1c1e40a17ce1948bd1de659",
+                 "name" : "ATM (Spring Food Mart)",
+                 "photos" : [
+                    {
+                       "height" : 4160,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102148981572796674007/photos\"\u003ePurepecha Guerrero\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAGXTJ55lC5EQwjS2AQsRXkAmSzS_93HYXRDiBD4CG3ubezgXa8aOdEXNCEWxGnxCSwkvZ77TDlxwxOMz0i6UjHNxidMZzCETf7Ifph8UTwai1E0fnNJ1RJmUASFD0JcaTEhAyBc99T58BwRf3P9EEe3Z8GhT_hIE8C3JVnSVMvEADSzRvLoTrog",
+                       "width" : 2340
+                    }
+                 ],
+                 "place_id" : "ChIJnQK6vS_NRIYRhpSteHr9yWU",
+                 "plus_code" : {
+                    "compound_code" : "C6VF+GM Jollyville, Texas, United States",
+                    "global_code" : "8624C6VF+GM"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJnQK6vS_NRIYRhpSteHr9yWU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13125 Pond Springs Road # 101, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4439948,
+                       "lng" : -97.7757494
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4451593802915,
+                          "lng" : -97.77446491970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4424614197085,
+                          "lng" : -97.77716288029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "ffa778730a90ee17ca464d2880c74a4c1d949ca2",
+                 "name" : "Spring Food Mart",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJnQK6vS_NRIYRp5kX_MrW4sQ",
+                 "plus_code" : {
+                    "compound_code" : "C6VF+HP Jollyville, Texas, United States",
+                    "global_code" : "8624C6VF+HP"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJnQK6vS_NRIYRp5kX_MrW4sQ",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "atm",
+                    "gas_station",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "13125 Pond Springs Road #101, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4404258,
+                       "lng" : -97.779167
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4416732302915,
+                          "lng" : -97.7778983697085
+                       },
+                       "southwest" : {
+                          "lat" : 30.4389752697085,
+                          "lng" : -97.78059633029152
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "20904262adbbc4a4a6c15b03c94738e0b5b97fef",
+                 "name" : "A+ Federal Credit Union",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1944,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100437562042846055924/photos\"\u003eA+ Federal Credit Union\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAADeN8iKDCKVFUWNK9TT4r8h8k8FkmhJaKjDNHeus8whL53FoMSH3Tw0j8RsfxWN4orxyOawabFljEiPian82BBPvh3OFqdeTaGVxE9mgkCB6lC5mCGngRGz1k4xKIFwf9EhDs8-9PwsZGU5AWcR8_kOYBGhRJ_4UzmDnTWqSyGKqDrfCKe6mr5A",
+                       "width" : 2592
+                    }
+                 ],
+                 "place_id" : "ChIJraucrC7NRIYRyCgphycaTdw",
+                 "plus_code" : {
+                    "compound_code" : "C6RC+58 Austin, Texas, United States",
+                    "global_code" : "8624C6RC+58"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJraucrC7NRIYRyCgphycaTdw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13087 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4392476,
+                       "lng" : -97.78013419999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4407029802915,
+                          "lng" : -97.77869431970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4380050197085,
+                          "lng" : -97.7813922802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "2b852e80cba2829b28b2e5ed7d7d55139ee1b205",
+                 "name" : "Chase ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4128,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115654327391692841603/photos\"\u003eMark Anthony Gonzalez\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAKpza_GJTXA3STfAm-C5jFprJDs77SOXUCpOyn1YUjdIt8O2NPRnyjIrWaGk-Snd5Wb9BmmVNAIvhkA-I59WE1Miqs8JJA0Kghjraeq_Lwjp-VPag1t6va8VwfztDtWyyEhC3g5cljTVWzyMKmoBSSfkeGhSCaI00I8fwqnlEKgZZvSGgJea29w",
+                       "width" : 2322
+                    }
+                 ],
+                 "place_id" : "ChIJAciR8CvNRIYR5s2HVF97HgQ",
+                 "plus_code" : {
+                    "compound_code" : "C6Q9+MW Austin, Texas, United States",
+                    "global_code" : "8624C6Q9+MW"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJAciR8CvNRIYR5s2HVF97HgQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13096 U.S. 183, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4407535,
+                       "lng" : -97.77934879999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44210743029149,
+                          "lng" : -97.77800781970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.43940946970849,
+                          "lng" : -97.7807057802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "fda43203203ac10d0a741e30f0475afdea251c98",
+                 "name" : "ATM",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJmekrpC7NRIYRCrgsYAhdykc",
+                 "plus_code" : {
+                    "compound_code" : "C6RC+87 Austin, Texas, United States",
+                    "global_code" : "8624C6RC+87"
+                 },
+                 "reference" : "ChIJmekrpC7NRIYRCrgsYAhdykc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13087 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4053779,
+                       "lng" : -97.7438081
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4068310802915,
+                          "lng" : -97.74244116970848
+                       },
+                       "southwest" : {
+                          "lat" : 30.4041331197085,
+                          "lng" : -97.74513913029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "996f9d6faab1778ae0f52fffe9075070a6fc7a82",
+                 "name" : "UFCU ATM",
+                 "place_id" : "ChIJHUiUr4nMRIYRYoLfMalkTmQ",
+                 "plus_code" : {
+                    "compound_code" : "C744+5F Austin, Texas, United States",
+                    "global_code" : "8624C744+5F"
+                 },
+                 "reference" : "ChIJHUiUr4nMRIYRYoLfMalkTmQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "11113 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4452779,
+                       "lng" : -97.777907
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44657518029149,
+                          "lng" : -97.77668646970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.44387721970849,
+                          "lng" : -97.7793844302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "c2ae038c8aeda052738a4094939e7472b7ba46df",
+                 "name" : "Shell",
+                 "photos" : [
+                    {
+                       "height" : 1836,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/106318944711803126105/photos\"\u003eAabid aam\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAASeoQj9xM3FkmXycFUpOA4FtOJ1ICov-QVX6NjMBkTwUzfbGF6v-Lcndj47G8ZaFWj0-JDxpOHAC-I8qIzHtu6zSE5rYRdveyL5ICVE8RboMULc5bYQcNP48gsmcV_eXMEhBtST8Vs_S6Lzn9qKeBEQThGhQbQLlgDSazE_5Wye5zHa9LS-XYfQ",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJnUUfJC7NRIYRSWufudgekJc",
+                 "plus_code" : {
+                    "compound_code" : "C6WC+4R Jollyville, Texas, United States",
+                    "global_code" : "8624C6WC+4R"
+                 },
+                 "price_level" : 2,
+                 "rating" : 3.6,
+                 "reference" : "ChIJnUUfJC7NRIYRSWufudgekJc",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "13201 Pond Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4457669,
+                       "lng" : -97.77821879999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4469427302915,
+                          "lng" : -97.77704336970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4442447697085,
+                          "lng" : -97.7797413302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "d101ec621b38161545e646305f7cd18813fe10be",
+                 "name" : "Lynk Direct/Fikes Wholesale, Inc.",
+                 "place_id" : "ChIJtaGT3zHNRIYRQUwJ5FN1cv4",
+                 "plus_code" : {
+                    "compound_code" : "C6WC+8P Jollyville, Texas, United States",
+                    "global_code" : "8624C6WC+8P"
+                 },
+                 "reference" : "ChIJtaGT3zHNRIYRQUwJ5FN1cv4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13201 Pond Springs Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4020429,
+                       "lng" : -97.74762129999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4033830802915,
+                          "lng" : -97.74643566970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4006851197085,
+                          "lng" : -97.7491336302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "bb59fdc43f104776f901a6f5ffb17e2e833b4b08",
+                 "name" : "Cardtronics ATM",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJzzh8AYbMRIYRc1H-ST4OEy8",
+                 "plus_code" : {
+                    "compound_code" : "C722+RX Austin, Texas, United States",
+                    "global_code" : "8624C722+RX"
+                 },
+                 "reference" : "ChIJzzh8AYbMRIYRc1H-ST4OEy8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "bank", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "10900 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4011469,
+                       "lng" : -97.7480865
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4024126802915,
+                          "lng" : -97.74675611970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.3997147197085,
+                          "lng" : -97.7494540802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "95b4c5d82f493f8382a9ab91741836acb680d9d4",
+                 "name" : "Wells Fargo Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 500,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112699128666074183464/photos\"\u003eWells Fargo Bank\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAUM7aAHq4mfkq3KuKL73grViV9pzhxPnktu65vVuUmyrPdn3fztMcBkAxw270499D8c4rgYeEI2lInZ3h76PRFsKieUjcQpYNag7ijaFfZVX7XKL9mA95fYtY2C167y4xEhCwgcI7AXRPtQ1jlbQDsfTqGhTF0HeDiJ8J_c3S_2LntIZLRQog3g",
+                       "width" : 500
+                    }
+                 ],
+                 "place_id" : "ChIJR44bU4_MRIYRsRyhhAHgDa8",
+                 "plus_code" : {
+                    "compound_code" : "C722+FQ Austin, Texas, United States",
+                    "global_code" : "8624C722+FQ"
+                 },
+                 "rating" : 3.7,
+                 "reference" : "ChIJR44bU4_MRIYRsRyhhAHgDa8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "10900 Research Boulevard Ste B, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.400315,
+                       "lng" : -97.74847939999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4017244802915,
+                          "lng" : -97.74713056970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.3990265197085,
+                          "lng" : -97.7498285302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "0565d50cb3bf31503a52dd89166da925dda16364",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107424162916612073961/photos\"\u003eFrost Bank ATM\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAn4E0gUKZ6mf2weWLpcE63jWyh89rLv7SNC-xxkYt-p-CniDcBphJf-44JhLPngPP9V5Lwv7AIVk8rxc_bsYRO6UgPVvdR9P7VfsfbyTqgDq1sZYWCIM_2CbXMSMUPou0EhAY1Aix6cn669v4xVXMUhVMGhRJPbX9-RRRa0ZnxB53cwgxtf9VDw",
+                       "width" : 3000
+                    }
+                 ],
+                 "place_id" : "ChIJTWjFlIXMRIYRn2M2qc__tSk",
+                 "plus_code" : {
+                    "compound_code" : "C722+4J Austin, Texas, United States",
+                    "global_code" : "8624C722+4J"
+                 },
+                 "reference" : "ChIJTWjFlIXMRIYRn2M2qc__tSk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "10713 Jollyville Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4002194,
+                       "lng" : -97.74681699999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4015435802915,
+                          "lng" : -97.7454322197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.3988456197085,
+                          "lng" : -97.74813018029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "ee35c1b2f89441f764e199e8f72f47eb2e49088b",
+                 "name" : "Cardtronics ATM",
+                 "place_id" : "ChIJJXwREobMRIYREiC1lo4ZpfA",
+                 "plus_code" : {
+                    "compound_code" : "C723+37 Austin, Texas, United States",
+                    "global_code" : "8624C723+37"
+                 },
+                 "reference" : "ChIJJXwREobMRIYREiC1lo4ZpfA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "10800 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.39860299999999,
+                       "lng" : -97.74865589999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4001265302915,
+                          "lng" : -97.7472965197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.3974285697085,
+                          "lng" : -97.74999448029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "85bf461aea3cc4edd82e0bd7f1757be39b5c5f66",
+                 "name" : "Frost Bank ATM",
+                 "photos" : [
+                    {
+                       "height" : 768,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105358786048240206729/photos\"\u003eFrost Bank ATM\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAmjhKK_9OesLL44ow37T6k6Joj0Txp_mvRXLLfV2XYmXyLgxGtR0m_f2n4zGYsWaoowZRuoei4pva52z8-qf3FtZRpJGwY9tRirKlW7-Ld6Nn-D4DP-rUKqFhDgBvU6j7EhBxpPhIQYYsAB2kBisKSXMyGhSc2u39-uOmUY4TEBskq033KEzgCw",
+                       "width" : 768
+                    }
+                 ],
+                 "place_id" : "ChIJje-FM4TMRIYRbB9jjL7A8ko",
+                 "plus_code" : {
+                    "compound_code" : "97X2+CG Austin, Texas, United States",
+                    "global_code" : "862497X2+CG"
+                 },
+                 "reference" : "ChIJje-FM4TMRIYRbB9jjL7A8ko",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "10710 Research Boulevard #200, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.452839,
+                       "lng" : -97.776493
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.45432198029149,
+                          "lng" : -97.77519101970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4516240197085,
+                          "lng" : -97.77788898029149
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "c0a70fefe609c0f4796a7d7297ade3c5a9a8e933",
+                 "name" : "Sunrise Mini Mart",
+                 "place_id" : "ChIJ2XDMGDfNRIYRikklQHESCy4",
+                 "plus_code" : {
+                    "compound_code" : "F63F+4C Jollyville, Texas, United States",
+                    "global_code" : "8624F63F+4C"
+                 },
+                 "reference" : "ChIJ2XDMGDfNRIYRikklQHESCy4",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "atm",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "8925 Anderson Mill Road, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4003373,
+                       "lng" : -97.74068389999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4017601302915,
+                          "lng" : -97.73936446970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.3990621697085,
+                          "lng" : -97.74206243029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "0d2aa24530e59f8b2689338a013111952ea302cf",
+                 "name" : "ATM (Regions Bank)",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113067642202531566445/photos\"\u003ePaul Isaac\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAApNcaK6YA3xtrUvUkc5jLkB72m66MmonxPO7L2I6t7-QBdroey7BO8qIIsdTd13DxRc1htw7ZG1W5l6litphrxyeKeC1RsNV81CtBuwJkKemQh4kPY4HRw1BfzmXrGI-jEhDlWhMf72-tQrgINnyAwbzlGhSgGKU4WSP_7_S22Aiqs_pg-NzH5w",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJv2rmCH3MRIYRTeqtkCWiyUc",
+                 "plus_code" : {
+                    "compound_code" : "C725+4P Austin, Texas, United States",
+                    "global_code" : "8624C725+4P"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJv2rmCH3MRIYRTeqtkCWiyUc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "4314 West Braker Lane # 100, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.40019679999999,
+                       "lng" : -97.74070610000001
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.4015211302915,
+                          "lng" : -97.7392987197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.3988231697085,
+                          "lng" : -97.74199668029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+                 "id" : "8e46bc219617dcae37c90617700164d42eb11db6",
+                 "name" : "Regions Bank",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 400,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118310236951554167367/photos\"\u003eRegions Bank\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRZAAAAoUNCa85YxWxhXcx60VH06N_gfLHXjlT0nDcPTb9xYcvGlVhztDYFV-eunnP04qJjsElYbshjmJQP1d5n7qGWpBI-7jUyhz4mkvmrb00jTAQ2ZtCbiWTqoknnkMl1VTdTEhAYjEBsEs4Cs6PV31pZ_RI8GhQYgfxR7G0svK8lf4qg18LzxFwOVQ",
+                       "width" : 400
+                    }
+                 ],
+                 "place_id" : "ChIJ5a4qan3MRIYR2r4deQFRnQE",
+                 "plus_code" : {
+                    "compound_code" : "C725+3P Austin, Texas, United States",
+                    "global_code" : "8624C725+3P"
+                 },
+                 "rating" : 2.1,
+                 "reference" : "ChIJ5a4qan3MRIYR2r4deQFRnQE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "4314 West Braker Lane, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4433396,
+                       "lng" : -97.78653829999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44480863029149,
+                          "lng" : -97.7853806197085
+                       },
+                       "southwest" : {
+                          "lat" : 30.44211066970849,
+                          "lng" : -97.78807858029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                 "id" : "e57c33c7e509694c7471e686862e7bd7dc586daa",
+                 "name" : "Shell",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4140,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114040255007684703876/photos\"\u003eSHILPAN PATEL\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAlFtQjFUVDTSxEyLW0iy-VojQTDpzaggeOBmQRF0x8RWO6yRg6JVyS0IAxcRTFNgbTSyPbfuemEWCp7AYgde7KQmv44X63t1LOZEg0NoL8pElmZ7ivtQM6phl4QgFKFgLEhBOx0GSt-gk9dTuE3Aa99pSGhRgGjs8KX3HZ0RLvXgKlEf85hKUJA",
+                       "width" : 5520
+                    }
+                 ],
+                 "place_id" : "ChIJcY_W69IyW4YRKvNePJrfsAY",
+                 "plus_code" : {
+                    "compound_code" : "C6V7+89 Austin, Texas, United States",
+                    "global_code" : "8624C6V7+89"
+                 },
+                 "price_level" : 2,
+                 "rating" : 1,
+                 "reference" : "ChIJcY_W69IyW4YRKvNePJrfsAY",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "gas_station",
+                    "atm",
+                    "convenience_store",
+                    "car_wash",
+                    "finance",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "13296 Research Boulevard, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4433563,
+                       "lng" : -97.786599
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.44465848029149,
+                          "lng" : -97.78528656970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.4419605197085,
+                          "lng" : -97.78798453029151
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "2fbcc9bbf30b04c4437dc1fcda52403de8510450",
+                 "name" : "ATM (Austex Shell)",
+                 "photos" : [
+                    {
+                       "height" : 4140,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114040255007684703876/photos\"\u003eSHILPAN PATEL\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAdLhFl0DNJY_nyarDjTlK9p53uZN99DH0ACcccF1FzM8TlwU3m0NBj1_9-EAYXCDPhIKHt476g5suq4H9EP2P2JwduQwAKq-nlVBjHuQTkkLk0FPlvFYylIA_cknhb-F7EhArrIzVXqwmlP3BcMkomqwSGhQorAmbg2HACXOkMPeNQjbO-Cp4aA",
+                       "width" : 5520
+                    }
+                 ],
+                 "place_id" : "ChIJnQK6vS_NRIYR7Y6iebGaaQU",
+                 "plus_code" : {
+                    "compound_code" : "C6V7+89 Austin, Texas, United States",
+                    "global_code" : "8624C6V7+89"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJnQK6vS_NRIYR7Y6iebGaaQU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "13296 U.S. 183, Austin"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 30.4254646,
+                       "lng" : -97.71780539999999
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 30.42687008029149,
+                          "lng" : -97.71647341970849
+                       },
+                       "southwest" : {
+                          "lat" : 30.42417211970849,
+                          "lng" : -97.7191713802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                 "id" : "62aa6f19c227b4ef4da0b2cd6b2f099781fe038b",
+                 "name" : "ATM (Highland Loan Source)",
+                 "place_id" : "ChIJvQD_OzjMRIYRfXAvdE92Kg0",
+                 "plus_code" : {
+                    "compound_code" : "C7GJ+5V Austin, Texas, United States",
+                    "global_code" : "8624C7GJ+5V"
+                 },
+                 "reference" : "ChIJvQD_OzjMRIYRfXAvdE92Kg0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+                 "vicinity" : "4201 West Parmer Lane, Austin"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Wed, 26 Dec 2018 12:01:05 GMT
+recorded_with: VCR 4.0.0
